@@ -37,4 +37,11 @@ h1 {
 .product-info {
    padding-left: 40px;
 }
+.product-info h2 {
+   padding-bottom: 20px;
+}
+.product-info li {
+   padding-top: 10px;
+   text-indent: 1em;
+}
 /* ======================= */
