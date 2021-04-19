@@ -12,18 +12,29 @@
     <title>Document</title>
 
 </head>
+
 <body>
     <div id="root">
         <header class="flexer col center center-cross">
             <img :src="logo" class="logo" alt="vue logo">
             <h1>{{ message }}</h1>
+            <nav class="nav-bar"></nav>
         </header>
-   
+        <main class="container flexer">
+            <div class="product-img">
+                <img :src="image" alt="">
+            </div>
+            <div class="product-info">
+                <h2>{{ product }}</h2>
+            </div>
+
+        </main>
+
 
     </div>
-   
 
-    <script src="https://cdn.jsdelivr.net/npm/vue@2"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/vue"></script>
 
     <script src="js/script.js"></script>
 </body>
