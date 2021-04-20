@@ -30,6 +30,11 @@ h1 {
    width: 100%;
    background: linear-gradient(90deg,#41b782,#86d169)
 }
+.color-box {
+   height: 2rem;
+   width: 2rem;
+   border: 1px solid black;
+}
 
 .product-img img {
    width: 200px;
@@ -45,3 +50,12 @@ h1 {
    text-indent: 1em;
 }
 /* ======================= */
+
+
+button {
+   padding: 5px;
+   border: 1px solid grey
+}
+button.disabled {
+   opacity: 0.3
+}
